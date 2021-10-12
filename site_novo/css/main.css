@@ -1,0 +1,570 @@
+/* 
+    cor verde ==> #4DBB80
+    cor amarelo ==> #FBC700
+    cor rosa ==> #EC268F
+    cor roxo ==> #5A58A4
+    cor azul ==> #00AFEF
+    */
+    
+html {
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;   
+    overflow-x: hidden;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tudo{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: none;
+}
+
+.col_100{
+    width: 100%;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #4DBB80;
+    padding: none;
+    margin: none;
+}
+        
+.logo{
+    width: 40%;
+    padding-left: 3%;
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left:20%;   
+    padding-top: 1%;  
+    cursor: pointer; 
+}
+
+.menu ul a{
+    color: #ffff;    
+    border: none;
+    text-decoration: none;        
+    font-size: 18pt;
+    padding-top: 25px;
+    margin-left: 30px;    
+}
+.menu ul {
+    padding-right: 3%;
+    display: inline-flex;
+    float: right;
+    position: relative;
+} 
+
+#produtos:hover{
+    color: #00afefab;   
+}
+
+#contato:hover{
+    color: #5A58A4;
+}
+
+#home:hover{
+    color: #FBC700;
+}
+
+#sobre:hover{
+    color: #EC268F;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.menu-section.on ul {
+    text-align: center;
+    display: block;
+    padding-right: 6.5rem;
+}
+    
+.menu-section.on  ul a{
+    transition-duration: 0.5s;
+    font-size: 3rem;
+    line-height: 4rem;
+    display: block;
+} 
+
+.slider img{
+    width: 100%;
+    height: 70vh;  
+}
+
+button.slick-next {
+    color: #fff;
+    font-size:1.2rem;
+    background-color: #666;
+    border: none;
+   /* background-image: url(../img/anterior.png);
+    background-repeat: no-repeat;*/
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right: 0%;
+    z-index: 9;
+    bottom: 0.2%;
+    cursor: pointer;
+}
+
+button.slick-prev {
+    color: #fff;
+    font-size:1.2rem;
+    background-color: #666;
+    border: none;
+   /* background-image: url(../img/anterior.png);
+    background-repeat: no-repeat;*/
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    z-index: 9;
+    bottom: 0.2%;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffff;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 38%;
+    top: 92%;
+}
+
+li.slick-active button {
+    background: #4DBB80;
+}
+
+.slick-dots li {
+    padding-left: 1.0rem;
+    display: inline-block;
+}
+
+.novidades h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #69C;
+    font-size: 5.7rem;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.novidades p{
+    text-align: center;
+    color: #666;
+    font-size: 1.5rem;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.col-3{
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.col-3 img{
+    width: 100%
+}
+
+.col-3 p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.novidades strong{
+    color: black;
+}
+
+
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #69C;
+    font-size: 5.7rem;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.image img {
+    position: relative;
+    right: 0%;
+    width: 100%;
+}
+
+.col-4{
+    width: 40%;
+    position: relative;
+    float: right;
+}
+
+.col-1{
+    width: 10%;
+    position: relative;
+    float: left;
+}
+
+.col-2{
+    width: 20%;
+    position: relative;
+    float: left;
+}
+.col-2 p{
+    font-size: 1.3rem;
+}
+
+.col-2 h3{
+    font-size: 1.5rem;
+}
+
+.servicos{
+    padding-bottom: 65px;
+    padding-top: 30px;
+}
+
+.col-1 img{
+    width: 55%;
+    height: auto;
+    padding-left:30%;
+}
+
+.produtos{
+    position: relative;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.produtos button{
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    margin: 20px auto;
+    max-width: 180px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 8px 13px;
+    font-size: 11px;
+    position: absolute;
+    left: 20%;
+    bottom: -556%;
+    color: #69C;
+   
+}
+
+.produtos button:hover{
+    background-color: #69C;
+    color: #fff;
+}
+
+/*
+.fundo{
+    width: 100px;
+    height: 360px;
+    background-color: #4DBB80;
+    position: absolute;
+    float: right;
+    right: 10%;
+    bottom: -118%;
+    z-index: -900;
+
+}
+*/
+
+.rodape{
+    background-color: #666;
+    margin-top: 283px;
+    height: 300px;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+}
+.footer p{
+color: white;
+margin: none;
+padding: none;
+position: absolute;
+left: 40%;
+margin-top: 1.5%;
+
+}
+
+@media (max-width: 1024px) {
+    body{
+        width: 100%;   
+        overflow-x: hidden;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .slider img{
+        width: 100%;
+        height: auto;   
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        width: 100%;   
+        overflow-x: hidden;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .logo img{
+        width: 100px;
+        height: auto;
+        position: absolute;
+        left:8%;   
+        padding-top: 3%;  
+        cursor: pointer; 
+    }
+
+    .menu ul {
+        padding-right: 3%;
+        display: inline-flex;
+        float: right;
+        position: relative;
+        display: none;
+    } 
+
+    .menu-toggle .one {
+        width: 32px;
+        height: 4px;
+        background: #fff;
+        margin: 0 auto;
+        transition: 0.3s;
+        position: absolute;
+        top: 5%;
+        right: 0;
+        margin-right: 10%;  
+    }
+
+    .menu-toggle .two {
+        width: 32px;
+        height: 4px;
+        background: #fff;
+        margin: 0 auto;
+        transition: 0.3s;
+        position: absolute;
+        top: 6.5%;
+        right: 0;
+        margin-right: 10%;
+    }
+
+    .menu-toggle .three {
+        width: 32px;
+        height: 4px;
+        background: #fff;
+        margin: 0 auto;
+        transition: 0.3s;
+        position: absolute;
+        top: 8%;
+        right: 0;
+        margin-right: 10%;
+        
+    }
+    
+    .menu-section.on {
+        position: absolute;
+        top:0;
+        right:0;
+        width: 70vw;
+        height: 100vh;
+        background-color: #4DBB80;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-2 p{
+        font-size: 0.9rem;
+    }
+    
+    .col-2 h3{
+        font-size: 1.1rem;
+    
+}
+}
+@media (max-width: 600px) {
+    body{
+        width: 100%;   
+        overflow-x: hidden;  
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .col-3{
+        width: 100%;
+        height: auto;
+        float: left;
+        position: relative;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .col-3 img{
+        width: 50%;
+        margin-left: 25%;
+        
+    }
+
+    .novidades h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: #69C;
+        font-size: 3.7rem;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    .slick-dots li button {
+        font-size: 0px;
+        border:none;
+        width: 0;
+        height: 0;
+        background: transparent;
+        border-radius: 0;
+    }
+
+    h2{
+        text-transform: uppercase;
+        text-align: center;
+        color: #69C;
+        font-size: 3.7rem;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    .image img {
+        position: relative;
+        left: 0%;
+        width: 100%;
+    }
+    
+    .col-4{
+        width: 80%;
+        position: relative;
+        float: left;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .col-1{
+        width: 20%;
+        position: relative;
+        float: left;
+        padding-left: 3%;
+    }
+
+    .col-2{
+        width: 20%;
+        position: relative;
+        float: left; 
+    }
+
+    .col-2 p{
+        font-size: 1.3rem;
+    }
+    
+    .col-2 h3{
+        font-size: 1.7rem;
+    }
+
+    .servicos{
+        padding-bottom: 65px;
+        padding-top: 30px;
+    }
+    
+    .col-1 img{
+        width: 70%;
+        height: auto;
+        padding-top: 40%; 
+    }
+    .produtos{
+        position: relative;
+        padding-top: 67%;
+    }
+
+    .produtos button{
+        transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+        margin: 20px auto;
+        max-width: 180px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 8px 13px;
+        font-size: 11px;
+        position: absolute;
+        left: 34%;
+        bottom: -100%;
+        color: #69C;
+       
+    }
+
+}
+
+@media (max-width: 490px) {
+    .col-2 p{
+        font-size: 0.9rem;
+    }
+    
+    .col-2 h3{
+        font-size: 1.3rem;
+    }
+    .produtos button{
+        transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+        margin: 20px auto;
+        max-width: 180px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 8px 13px;
+        font-size: 11px;
+        position: absolute;
+        left: 20%;
+        bottom: -120%;
+        color: #69C;
+       
+    }
+}
+@media (max-width: 374px) {
+    .col-2 p{
+        font-size: 0.7rem;
+    }
+    
+    .col-2 h3{
+        font-size: 1.1rem;
+    }
+    .produtos button{
+        transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+        margin: 20px auto;
+        max-width: 180px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 2px;
+        padding: 8px 13px;
+        font-size: 11px;
+        position: absolute;
+        left: 20%;
+        bottom: -120%;
+        color: #69C;
+       
+    }
+}
